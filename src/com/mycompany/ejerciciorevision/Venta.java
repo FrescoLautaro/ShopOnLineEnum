@@ -8,7 +8,7 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 
 /**
- *
+ * Venta realizada por Lorenzo
  * @author ET36
  */
 public class Venta {
