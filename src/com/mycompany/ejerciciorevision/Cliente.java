@@ -7,7 +7,7 @@ package com.mycompany.ejerciciorevision;
 import java.util.ArrayList;
 
 /**
- *
+ * Cliente realizado por Lautaro
  * @author ET36
  */
 public class Cliente {
