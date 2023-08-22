@@ -9,7 +9,7 @@ import java.util.Scanner;
 import javax.swing.JOptionPane;
 
 /**
- *
+ * Main realizado por Lorenzo y Lautaro
  * @author ET36
  */
 public class ShopOnLine {
