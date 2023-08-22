@@ -5,7 +5,7 @@
 package com.mycompany.ejerciciorevision;
 
 /**
- *
+ * Remera realizado por Lautaro
  * @author ET36
  */
 public class Remera extends Producto {
