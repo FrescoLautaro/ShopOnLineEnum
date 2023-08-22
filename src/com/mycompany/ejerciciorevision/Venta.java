@@ -46,7 +46,7 @@ public class Venta {
         System.out.println("");
         System.out.println(cliente.toString());
         for (Producto p : producto) {
-            System.out.println(p.desc + ".........$" + p.getPrecio() + "(" + p.toString() + ")");
+            System.out.println(p.getDesc() + ".........$" + p.getPrecio() + "(" + p.toString() + ")");
 
         }
         System.out.println("Total a pagar:" + "$" + importe);

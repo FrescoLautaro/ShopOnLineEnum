@@ -8,13 +8,16 @@ package com.mycompany.ejerciciorevision;
  * Remera realizado por Lautaro
  * @author ET36
  */
-public class Remera extends Producto {
+public class Remera implements Producto {
 
     private Talles talle;
+    private String desc;
+    private double precio;
 
     public Remera(Talles talle, String desc, double precio) {
-        super(desc, precio);
+        this.desc=desc;
         this.talle = talle;
+        this.precio=precio;
     }
 
     @Override
@@ -42,6 +45,21 @@ public class Remera extends Producto {
     @Override
     public String toString() {
         return "talle:" + talle;
+    }
+
+    @Override
+    public String getDesc() {
+        return this.desc;
+    }
+
+    @Override
+    public void setDesc(String desc) {
+        this.desc=desc;
+    }
+
+    @Override
+    public void setPrecio(double precio) {
+        this.precio=precio;
     }
 
 }

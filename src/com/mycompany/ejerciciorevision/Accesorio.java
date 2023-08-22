@@ -9,13 +9,16 @@ package com.mycompany.ejerciciorevision;
  * Accesorio realizado por Mel
  * @author ET36
  */
-public class Accesorio extends Producto {
+public class Accesorio implements Producto {
     
     private double peso;
     private Talles metal;
+    private String desc;
+    private double precio;
     
     public Accesorio(double peso, Talles metal, String desc, double precio) {
-        super(desc, precio);
+        this.desc=desc;
+        this.precio=precio;
         this.peso = peso;
         this.metal = metal;
     }
@@ -44,6 +47,21 @@ public class Accesorio extends Producto {
     @Override
     public String toString() {
         return "Bijouterie";
+    }
+
+    @Override
+    public String getDesc() {
+        return this.desc;
+    }
+
+    @Override
+    public void setDesc(String desc) {
+        this.desc=desc;
+    }
+
+    @Override
+    public void setPrecio(double precio) {
+       this.precio=precio; 
     }
     
 }

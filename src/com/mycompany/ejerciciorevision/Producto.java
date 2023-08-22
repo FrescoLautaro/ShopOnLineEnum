@@ -6,38 +6,23 @@ package com.mycompany.ejerciciorevision;
 
 /**
  * Producto realizado por Mel
+ * Interface realizada por Lorenzo y Lautaro
  * @author ET36
  */
-public abstract class Producto {
+public interface Producto {
 
-    protected String desc;
-    protected double precio;
-    protected static int codigo;
-
-    public Producto(String desc, double precio) {
-        this.desc = desc;
-        this.precio = precio;
-        this.codigo = codigo++;
-    }
-
+    
+    
     @Override
-    public String toString() {
-        return this.desc + "........ $ " + this.precio;
-    }
+    public String toString();
 
-    public String getDesc() {
-        return desc;
-    }
+    public String getDesc();
 
-    public void setDesc(String desc) {
-        this.desc = desc;
-    }
+    public void setDesc(String desc);
 
     public abstract double getPrecio();
 
-    public void setPrecio(double precio) {
-        this.precio = precio;
-    }
+    public void setPrecio(double precio);
 
-    public abstract double CalcularPrecio();
+    public double CalcularPrecio();
 }
