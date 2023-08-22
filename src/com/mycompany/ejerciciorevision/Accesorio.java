@@ -6,7 +6,7 @@ package com.mycompany.ejerciciorevision;
 
 
 /**
- *
+ * Accesorio realizado por Mel
  * @author ET36
  */
 public class Accesorio extends Producto {
