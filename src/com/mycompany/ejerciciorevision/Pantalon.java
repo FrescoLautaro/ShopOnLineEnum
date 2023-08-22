@@ -5,7 +5,7 @@
 package com.mycompany.ejerciciorevision;
 
 /**
- *
+ * Pantalon realizado por Lorenzo
  * @author ET36
  */
 public class Pantalon extends Producto {
