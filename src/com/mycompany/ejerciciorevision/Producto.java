@@ -5,7 +5,7 @@
 package com.mycompany.ejerciciorevision;
 
 /**
- *
+ * Producto realizado por Mel
  * @author ET36
  */
 public abstract class Producto {
