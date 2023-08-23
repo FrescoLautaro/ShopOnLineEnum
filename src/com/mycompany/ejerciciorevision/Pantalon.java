@@ -6,9 +6,10 @@ package com.mycompany.ejerciciorevision;
 
 /**
  * Pantalon realizado por Lorenzo
+ *
  * @author ET36
  */
-public class Pantalon implements Producto {
+public class Pantalon extends Producto {
 
     private Talles talle;
     private String modelo;
@@ -16,8 +17,9 @@ public class Pantalon implements Producto {
     private double precio;
 
     public Pantalon(Talles talle, String modelo, String desc, double precio) {
-        this.desc=desc;
-        this.precio=precio;
+        super(desc, precio);
+        this.desc = desc;
+        this.precio = precio;
         this.talle = talle;
         this.modelo = modelo;
     }
@@ -55,12 +57,12 @@ public class Pantalon implements Producto {
 
     @Override
     public void setDesc(String desc) {
-        this.desc=desc;
+        this.desc = desc;
     }
 
     @Override
     public void setPrecio(double precio) {
-        this.precio=precio;
+        this.precio = precio;
     }
 
 }
